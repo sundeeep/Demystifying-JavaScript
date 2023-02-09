@@ -1,0 +1,22 @@
+What is a Callback Function in Javascript
+
+-> You can take a function which can be passed into another function, the function which has been passed is called CallBack Function.
+
+-> With the help of "callback" functions, we can do "asynchronous" tasks in a synchronous - single threaded Javascript.
+
+Example: setTimeout(handler, delay);
+"handler is the call back function."
+
+Power of a Callbacks?
+
+Deep about the Event Listeners?
+
+document.getElementById("clickMe")
+.addEventListener("click", function cb(){
+	console.log("Button Clicked!");
+})
+
+
+-> Even Listeners are heavy, It consumes the Memory. The program can't free up the Memory which stores the Event Listeners.
+e.g., onclicke, onclose, onscroll, onhover
+

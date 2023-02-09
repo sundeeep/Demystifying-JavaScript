@@ -1,0 +1,19 @@
+Closure Definition:
+
+
+Closures have a lot of advantages and real -world examples:
+
+1. Module Pattern
+2. Function Currying
+3. Higher Order Functions (memoize, ones)
+4. Data Hiding and Encapsulation
+
+
+Data Hiding and Encapsulation:
+-> 
+
+Disadvantages of Closures:
+
+-> Those closed variables are not garbage collected,
+-> If not handle properly, Memory can be leaked and browser can be freeezed.
+-> Closures consume so much Heap Memory Becuase those variables which are present inside the Closure Function can be Garbage collected.

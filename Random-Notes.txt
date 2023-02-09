@@ -1,0 +1,41 @@
+Akshay's Suggestions:
+-> ECMASCRIPT 6 Standards Documentation, 
+
+What is Lexical Environment?
+Whenever Global Execution Context is created, the Lexical Environment is also created. Lexical environment is a local memory along with the lexical environment of it's parent.
+
+-> Lexical means "in heirarchy" or "in a sequence".
+
+function a(){
+	var b= 10;
+	c();
+	function c(){
+		...
+	}
+}
+
+a();
+
+-> c func() is lexically inside a func().
+-> where that code is present physically inside where?
+-> a func() is lexically inside the global scope.
+
+-> Local Memory along with Lexical environment of it's Parent.
+
+-> Whenever the Global Execution Context is created, then in the Memory Allocation part, The reference of the Local Memory as well as Lexical Environment of it's Parent also been created.
+
+-> Scope Chaining is the chain of all the lexical environments of it's parent's references.
+
+-> Lexical Environment = Local Memory + Lexical Environment of it's Parent(where it's lexically present).
+
+-> Scope is defined that, whether a function or variable present inside the Scope Chain.
+ 
+
+
+***Anonymous Function, First Class Function, and Higher Order Function, Call Back Function***
+
+***Function Statement, Function Expression and Function Declaration.***
+
+Answers: 
+
+-> 
