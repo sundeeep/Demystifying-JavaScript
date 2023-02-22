@@ -33,3 +33,23 @@ const changeBG = document.querySelector(".ChangeBG");
 //     BGChanged = true;
 
 // }
+
+
+// TODO: DO NOT DO THIS , the function will be invoked immediately and BG will be changed
+// FIXME: onclick accepts only the call back functions, we can't give them / return the direct business logic.
+
+// changeBG.onclick = changeBGHandler();
+
+// function changeBGHandler(){
+//     document.body.style.backgroundColor = "lightcoral";
+// }
+
+// TODO: Correction will be: Pass the call the call back function / assign the call back function to the `onclick` property.
+changeBG.onclick = changeBGHandler();
+
+function changeBGHandler(){
+    return ()=>{
+        document.body.style.backgroundColor = 'lightcoral';
+    }
+
+}
